@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+  font-family: "font-1", sans-serif;
+}
+
+.wrapper {
+  padding: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.recipe-card {
+  width: 30%;
+  padding-top: 20px;
+  box-shadow: 0px 7px 12px 0px grey;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -10px;
+}
+.recipe-card h2 {
+  padding: 5px 0px 10px 20px;
+}
+.recipe-card p {
+  padding: 5px 0px 20px 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: salmon;
+}
+.header-container ul {
+  display: flex;
+  height: 100%;
+}
+.header-container a {
+  display: flex;
+  height: 100%;
+  align-content: center;
+  margin-left: 50px;
+  flex-wrap: wrap;
+  color: salmon;
+}
+
+footer {
+  text-align: center;
+  color: salmon;
+  margin-top: 50px;
+}
+footer h1 {
+  padding: 20px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+footer li {
+  margin: 20px;
+}
+footer i {
+  color: salmon;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+.form-container input {
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid lightgray;
+  padding: 10px 10px 10px 10px;
+  margin: 60px;
+}
+
+.recipes-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

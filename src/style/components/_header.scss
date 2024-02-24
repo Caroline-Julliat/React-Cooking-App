@@ -1,0 +1,20 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  color: $color-1;
+
+  ul {
+    display: flex;
+    height: 100%;
+  }
+
+  a {
+    display: flex;
+    height: 100%;
+    align-content: center;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    color: $color-1;
+  }
+}

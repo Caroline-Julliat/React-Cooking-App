@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+$font-1: "font-1", sans-serif;
+
+$color-1: salmon;
+$color-2: olive;
+$color-3: black;
+$white: white;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $white;
+  font-family: $font-1;
+}
+
+.wrapper {
+  padding: 100px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,18 @@
+footer {
+  text-align: center;
+  color: $color-1;
+  margin-top: 50px;
+  h1 {
+    padding: 20px;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    margin: 20px;
+  }
+  i {
+    color: $color-1;
+  }
+}
